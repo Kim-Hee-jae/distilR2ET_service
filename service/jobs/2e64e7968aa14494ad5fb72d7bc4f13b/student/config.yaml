@@ -1,0 +1,37 @@
+base_lr: 0.001
+batch_size: 16
+config: C:\Users\Taeyong_Sim\Desktop\Motion Retargeting\distilR2ET\config\train_student.yaml
+device:
+- 0
+epoch: 30
+ignore_weights: []
+job_id: 2e64e7968aa14494ad5fb72d7bc4f13b
+kp: 0.8
+max_length: 60
+mesh_path: ./datasets/mixamo/shape/
+model_save_name: distilled_r2et
+num_joint: 22
+phase: train
+ret_model_args:
+  embed_channels_p: 64
+  hidden_channels_p: 64
+  kp: 0.8
+  num_joint: 22
+  token_channels: 64
+ret_weights: ./pretrain/skeleton_aware_pre.pt
+step:
+- 30
+train_feeder_args:
+  data_config_path: ./config/data_config.json
+  data_path: ./datasets/mixamo/q
+  gt_path: .\service\jobs\2e64e7968aa14494ad5fb72d7bc4f13b\r2et
+  max_length: 60
+  phase: tmp_train
+  shape_path: ./datasets/mixamo/shape
+  stats_path: .\service\jobs\2e64e7968aa14494ad5fb72d7bc4f13b\r2et\stats
+weight_decay: 0.0
+weight_dqg: 0.2
+weight_dqs: 0.2
+weight_fc: 0.05
+weight_quat: 0.6
+work_dir: .\service\jobs\2e64e7968aa14494ad5fb72d7bc4f13b\student

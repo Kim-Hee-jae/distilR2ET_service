@@ -1,0 +1,84 @@
+[ Sun Dec 14 05:51:25 2025 ] Loading ret weights from ./pretrain/skeleton_aware_pre.pt
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.0.to_qkv.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.0.to_qkv.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.0.nn1.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.0.nn1.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.norm.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.norm.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn1.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn1.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn2.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn2.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.0.to_qkv.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.0.to_qkv.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.0.nn1.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.0.nn1.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.norm.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.norm.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn1.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn1.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn2.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn2.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.pos_encoder.pe
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.embed_linear.weight
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.embed_linear.bias
+[ Sun Dec 14 05:51:25 2025 ] Sucessfully Remove Weights: delta_dec.delta_linear.weight
+Can not find these weights:
+  delta_rightLeg_dec.joint_linear1.weight
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn1.weight
+  delta_dec.embed_linear.weight
+  delta_leftLeg_dec.joint_linear1.bias
+  delta_rightLeg_dec.delta_linear.W
+  weights_dec.joint_linear1.bias
+  delta_dec.q_encoder.trans1.layers.0.1.fn.norm.bias
+  delta_rightArm_dec.joint_linear1.bias
+  delta_rightLeg_dec.joint_linear2.weight
+  delta_rightLeg_dec.joint_linear1.bias
+  weights_dec.joint_linear2.weight
+  delta_rightLeg_dec.joint_linear2.bias
+  delta_leftArm_dec.delta_linear.bias
+  weights_dec.weights_linear.bias
+  delta_leftArm_dec.joint_linear2.bias
+  delta_rightArm_dec.joint_linear1.weight
+  delta_leftLeg_dec.joint_linear1.weight
+  weights_dec.joint_linear1.weight
+  delta_dec.q_encoder.trans1.layers.0.0.fn.to_qkv.weight
+  delta_dec.q_encoder.trans1.layers.0.0.fn.to_qkv.bias
+  delta_leftArm_dec.joint_linear2.weight
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn2.weight
+  delta_leftLeg_dec.joint_linear2.weight
+  delta_leftLeg_dec.delta_linear.bias
+  delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn2.bias
+  delta_rightLeg_dec.delta_linear.bias
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.norm.weight
+  delta_rightArm_dec.delta_linear.bias
+  weights_dec.joint_linear3.weight
+  weights_dec.weights_linear.weight
+  delta_dec.embed_linear.bias
+  delta_rightArm_dec.joint_linear2.weight
+  delta_dec.q_encoder.trans1.layers.0.0.fn.nn1.weight
+  delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn1.weight
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.norm.bias
+  delta_dec.skel_encoder.trans1.layers.0.0.fn.nn1.weight
+  delta_leftLeg_dec.joint_linear2.bias
+  delta_dec.q_encoder.trans1.layers.0.1.fn.norm.weight
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn2.bias
+  weights_dec.joint_linear3.bias
+  delta_leftLeg_dec.delta_linear.W
+  delta_dec.skel_encoder.trans1.layers.0.1.fn.fn.nn1.bias
+  delta_rightArm_dec.joint_linear2.bias
+  delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn1.bias
+  delta_leftArm_dec.joint_linear1.weight
+  delta_leftArm_dec.joint_linear1.bias
+  delta_dec.delta_linear.weight
+  delta_leftArm_dec.delta_linear.W
+  weights_dec.joint_linear2.bias
+  delta_dec.skel_encoder.trans1.layers.0.0.fn.to_qkv.bias
+  delta_dec.skel_encoder.trans1.layers.0.0.fn.nn1.bias
+  delta_dec.q_encoder.trans1.layers.0.1.fn.fn.nn2.weight
+  delta_dec.skel_encoder.trans1.layers.0.0.fn.to_qkv.weight
+  delta_dec.pos_encoder.pe
+  delta_rightArm_dec.delta_linear.W
+  delta_dec.q_encoder.trans1.layers.0.0.fn.nn1.bias
+[ Sun Dec 14 05:51:25 2025 ] distilled_r2et.pt has been saved!
+[ Sun Dec 14 05:51:38 2025 ] [Generalization] phase=test_uu | Rotation Error (Teacher vs Student): 85.89 ¡¾ 47.67 degrees
