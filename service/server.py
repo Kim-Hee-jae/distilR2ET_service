@@ -497,7 +497,7 @@ async def upload_fbx(file: UploadFile = File(...)):
     if not file.filename.lower().endswith(".fbx"):
         raise HTTPException(status_code=400, detail="FBX 파일만 허용됩니다.")
 
-    job_id = uuid.uuid4().hex
+    job_id = uuid.uuid4().hex[:12]
     job_dir = JOB_ROOT / job_id
     job_dir.mkdir(parents=True, exist_ok=True)
 
