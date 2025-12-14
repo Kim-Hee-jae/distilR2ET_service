@@ -12,7 +12,8 @@
 본 저장소는 연구/개발 목적의 `distilR²ET_develop` 저장소와 분리된  
 **서비스 전용 코드**입니다.
 사용하는 가상환경은 `distilR²ET_develop`와 동일하니 서비스 코드 사용 전에
-**https://github.com/Kim-Hee-jae/distilR2ET_develop**를 참고하여 가상환경부터 설치하세요.
+https://github.com/Kim-Hee-jae/distilR2ET_develop를 참고하여 
+가상환경부터 설치하세요.
 
 ---
 
